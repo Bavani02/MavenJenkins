@@ -26,15 +26,17 @@ public class LearnList {
 		names.remove("Kannan");
 		
 		System.out.println("After removal :"+names.contains("Kannan"));
+		System.out.println("After removal :" +names);
 		
 		Collections.sort(names);
 		
-		for(String name:names){
+		for(String name:names){ 
 			System.out.println(name);
 			
 		}
 		names.clear();
 		System.out.println("List is empty :"+names.isEmpty());
+		System.out.println("Added Names:"+names);
 
 	}
 }
